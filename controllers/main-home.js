@@ -1,6 +1,6 @@
 module.exports = {
     home: (req, res)=>{
-        res.render('index.ejs')
+        res.render('main.ejs')
     }
 
     
