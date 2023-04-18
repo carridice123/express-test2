@@ -5,6 +5,8 @@ const homeRoutes = require('./routes/main')
 const apiRoutes = require('./routes/rapperApi')
 app.set('view engine', 'ejs')
 app.use(express.static('public'))
+app.use(express.json())
+
 
 
 
