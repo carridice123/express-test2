@@ -4,4 +4,4 @@ const controllerApi = require('../controlles/api.js')
 
 router.get('/api/:rapperName', controllerApi.rapper)
 
-exports.router = router
+module.exports = router

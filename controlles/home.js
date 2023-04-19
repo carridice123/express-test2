@@ -1,5 +1,8 @@
-const indexHome = (req,res)=>{
-    res.render('index.ejs')
+module.exports = {
+    indexHome: (req, res)=>{
+        res.render('index.ejs')
+    }
+
+    
 }
 
-exports.indexHome = indexHome
