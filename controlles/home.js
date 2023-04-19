@@ -1,6 +1,6 @@
 module.exports = {
     indexHome: (req, res)=>{
-        res.sendFile('index.ejs')
+        res.render('index.ejs')
     }
 
     
