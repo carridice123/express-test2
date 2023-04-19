@@ -10,4 +10,4 @@ const rapper = (req, res)=>{
     }
 }
 
-module.exports = rapper
+exports.rapper = rapper
