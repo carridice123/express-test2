@@ -1,4 +1,4 @@
-const name = require('./models/getRappersName')
+const name = require('../models/getRappersName')
 
 
 const rapper = (req, res)=>{
