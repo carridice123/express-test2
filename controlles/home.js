@@ -1,7 +1,8 @@
 module.exports = {
     indexHome: (req, res)=>{
-        res.render('index.ejs')
+        res.render('../views/index.ejs')
     }
 
     
 }
+
