@@ -5,6 +5,7 @@ const homeRoutes = require('./routes/home.js')
 const apiRoutes = require('./routes/api.js')
 app.set('view engine', 'ejs')
 app.use(express.static('public'))
+app.use(express.json())
 
 
 
