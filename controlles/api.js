@@ -1,5 +1,4 @@
 const name = require('../models/getRappersName')
-// list of rappers name
 
 module.exports = {
     rapper: (req, res)=>{
