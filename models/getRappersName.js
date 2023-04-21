@@ -16,4 +16,4 @@ const rappers = {
     }
 }
 
-module.exports = {rappers}
+module.exports = rappers
