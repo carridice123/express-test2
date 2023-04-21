@@ -1,8 +1,9 @@
 const express = require('express')
 const app = express()
+const port = process.env.PORT || 3000
+
 const cors = require('cors')
 app.use(cors)
-const port = process.env.PORT || 3000
 const homeRoutes = require('./routes/home.js')
 const apiRoutes = require('./routes/api.js')
 app.set('view engine', 'ejs')
