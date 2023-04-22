@@ -1,12 +1,12 @@
-const names = require('../models/getRappersName')
+const rapName = require('../models/getRappersName')
 
 module.exports = {
     rapper: (req,res)=>{
         const rappersName = req.params.rapperName.toLowerCase()
-        if(names[rappersName]){
-            res.json(names[rappersName])
+        if(rapName.rappers[rappersName]){
+            res.json(rapName.rappers[rappersName])
         }else{
-            res.json(names['dylan'])
+            res.json(rapName.rappers['dylan'])
         }
     }
 }
