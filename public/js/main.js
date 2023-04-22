@@ -7,7 +7,7 @@ async function apiRequest(){
         const data = await response.json()
 
         console.log(data)
-        document.querySelector('section') = data.age
+        document.querySelector('section').innerText = data.age
 
     }catch(error){
         console.log(error)
