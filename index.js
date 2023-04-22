@@ -10,7 +10,7 @@ app.use(express.static('public'))
 
 app.use('/', homeRoutes)
 
-app.use('/api/:rapperName', apiRoutes)
+app.use('api/:rapperName', apiRoutes)
 app.use(cors)
 app.listen(port, function(){
     console.log('listening on port 3000 go and catch its now');
