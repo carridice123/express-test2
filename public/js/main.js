@@ -20,7 +20,7 @@ async function apiRequest(){
         let h4 = document.createElement('h2')
         h4.innerText = 'Birth Location: ' + data.birthLocation
         section.appendChild(h4)
-        
+        section.classList.toggle('remove-rapper')
     }catch(error){
         console.log(error)
     }
