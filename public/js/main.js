@@ -9,7 +9,7 @@ async function apiRequest(){
         console.log(data)
 
         let section = document.querySelector('section')
-
+        section.classList.toggle('remove-rapper')
         let h2 = document.createElement('h2')
         h2.innerText = 'Birth Name: ' + data.birthName
         section.appendChild(h2)
