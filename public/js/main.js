@@ -21,7 +21,14 @@ async function apiRequest(){
         let h4 = document.createElement('h2')
         h4.innerText = 'Birth Location: ' + data.birthLocation
         section.appendChild(h4)
+        
+        let h5 = document.createElement('h2')
+        h4.innerText = 'Nick Name: ' + data.nickName
+        section.appendChild(h5)
 
+        let h6 = document.createElement('h2')
+        h6.innerText = 'Birth Day: ' + data.birthDay
+        section.appendChild(h6)
     }catch(error){
         console.log(error)
     }
