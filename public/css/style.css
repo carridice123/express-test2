@@ -8,7 +8,10 @@
 h1{
     font-style: italic;
 }
-
+h5{
+    font-style: italic;
+    color: red;
+}
 .remove-rapper{
     display: none;
 }
